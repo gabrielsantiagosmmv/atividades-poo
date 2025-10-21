@@ -6,7 +6,6 @@ public class MainLivro {
         l1.exibirInfo();
         l2.exibirInfo();
 
-        //exibir direto da main
         System.out.println(l1.titulo);
         System.out.println(l1.paginas);
 
@@ -15,4 +14,5 @@ public class MainLivro {
         l1.setAutor("Nicolau Maquiavel (Edicao Revisada)");
         System.out.println(l1.getAutor());
     }
+
 }
